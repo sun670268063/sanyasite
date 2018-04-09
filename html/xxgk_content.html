@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>三亚市政府-新闻页</title>
+		<link rel="stylesheet" type="text/css" href="../assets/css/common.css" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/xxgk_content.css" />
+		<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
+	</head>
+
+	<body>
+		<div class="head"></div>
+
+		<div class="crumb">
+			<a href="../index.html" target="_blank">首页</a>&#62新闻
+		</div>
+		<div class="content pages-box">
+			<h1>我是文章标题</h1>
+			<div class="pages-date clearfix">
+				<div class="publishtime">2018-01-04 02：32：14</div>
+				<div class="printer">
+					<span>【字体：
+						<a href="javascript:SetFont(18)">大</a>
+						<a href="javascript:SetFont(16)">中</a> 
+						<a href="javascript:SetFont(14)">小</a>】
+					</span>
+					<span class="printIco" onclick="javascript:window.print()">
+						<img src="../assets/img/ico_dayin.png">
+						打印
+					</span>
+				</div>
+				<div class="share">
+					<div class="jiathis_style_24x24">
+						<a class="jiathis_button_weixin"></a>
+						<a class="jiathis_button_tsina"></a>
+						<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+					</div>
+					<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
+					<!-- JiaThis Button END -->
+
+				</div>
+			</div>
+			<div class="pages_content" id="news_content">
+				这是内容，样式由后台控制
+				<div class="xggj">
+					<span class="xggjTit">相关稿件</span>
+				</div>
+			</div>
+
+			<div class="qr_code" id="div_div">
+				<div id="qr_container">扫一扫在手机打开当前页</div>
+				<canvas id="Canvas" width="147" height="147"></canvas>
+			</div>
+
+			<div class="btm">
+				<a class="btn_1" onclick="javascript:window.print()">打印本页</a>
+				<a class="btn_1 ml50" onclick="javascript:window.close();">关闭窗口</a>
+			</div>
+
+		</div>
+
+		<div class="footer"></div>
+		<script type="text/javascript" src="../assets/js/jquery.qrcode.js" ></script>
+		<script type="text/javascript" src="../assets/js/qrcode.js" ></script>
+		<script>
+			//头部跟尾部加载
+			$(".head").load("mheader.html");
+			$(".footer").load("footer.html");
+		</script>
+		<script>
+			function SetFont(size) {
+				var divBody = document.getElementById("news_content");
+				if(!divBody) {
+					return;
+				}
+				divBody.style.fontSize = size + "px";
+				var divChildBody = divBody.childNodes;
+				for(var i = 0; i < divChildBody.length; i++) {
+					if(divChildBody[i].nodeType == 1) {
+						divChildBody[i].style.fontSize = size + "px";
+					}
+				}
+			}
+			var source = $('.issource').text();
+			if(source != '') {
+				$('.showsource').css('display', 'inline');
+			}
+		</script>
+
+	</body>
+
+</html>

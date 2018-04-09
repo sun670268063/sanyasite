@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>三亚市政府-新闻页</title>
+		<link rel="stylesheet" type="text/css" href="../assets/css/common.css" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/simple_list.css" />
+		<link rel="stylesheet" href="../assets/layui/css/layui.css" />
+		<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
+	</head>
+
+	<body>
+		<div class="head"></div>
+
+		<div class="crumb">
+			<a href="../index.html" target="_blank">首页</a>&#62政府网站工作年度报表
+		</div>
+		<div class="common">
+			<div class="list_1">
+				<img class="top_img" src="../assets/img/list_rt_bg.png" />
+				<h3>政府网站工作年度报表</h3>
+				<ul class="line_li">
+					<li>
+						<a href="xxgk_content.html">三亚市卫生和计划生育委员会2017年政府网站工作年度报表</a>
+						<em>2018-10-20</em>
+					</li>
+					<li>
+						<a href="">三亚市卫生和计划生育委员会2017年政府网站工作年度报表</a>
+						<em>2018-10-20</em>
+					</li>
+					<li>
+						<a href="">三亚市卫生和计划生育委员会2017年政府网站工作年度报表</a>
+						<em>2018-10-20</em>
+					</li>
+					<li>
+						<a href="">三亚市卫生和计划生育委员会2017年政府网站工作年度报表</a>
+						<em>2018-10-20</em>
+					</li>
+					<li>
+						<a href="">三亚市卫生和计划生育委员会2017年政府网站工作年度报表</a>
+						<em>2018-10-20</em>
+					</li>
+					<li>
+						<a href="">三亚市卫生和计划生育委员会2017年政府网站工作年度报表</a>
+						<em>2018-10-20</em>
+					</li>
+				</ul>
+			</div>
+
+			<div id="paging"></div>
+
+		</div>
+
+		<div class="footer"></div>
+		<script type="text/javascript" src="../assets/layui/layui.js"></script>
+		<script>
+			//头部跟尾部加载
+			$(".head").load("mheader.html");
+			$(".footer").load("footer.html");
+
+			//分页
+			layui.use('laypage', function() {
+				var laypage = layui.laypage;
+
+				//执行一个laypage实例
+				laypage.render({
+					elem: 'paging', //注意，这里的 test1 是 ID，不用加 # 号
+
+					count: 50 //数据总数，从服务端得到
+				});
+			});
+		</script>
+		<script type="text/javascript">
+			$('ul.line_li li').each(function(index, el) {
+				var that = $(this);
+				if((index + 1) % 5 == 0) {
+					$('<div class="border"></div>').insertAfter(that);
+				};
+			});
+		</script>
+	</body>
+
+</html>
