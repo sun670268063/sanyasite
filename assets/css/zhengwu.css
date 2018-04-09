@@ -1,0 +1,49 @@
+.con-right {
+  border: 0; }
+  .con-right .list-box4 {
+    margin-top: 20px;
+    text-align: center; }
+    .con-right .list-box4 h3 {
+      background: url(../img/tit_bg_02.png) no-repeat 0 0;
+      background-size: 100% 100%;
+      height: 50px;
+      min-height: 100%;
+      font-weight: normal;
+      text-align: center; }
+      .con-right .list-box4 h3 a {
+        line-height: 50px;
+        font-size: 20px;
+        color: #fff; }
+    .con-right .list-box4 .zhengwu-bg {
+      background: url(../img/gongbao_bg.jpg) repeat-x 0 0;
+      height: 278px; }
+      .con-right .list-box4 .zhengwu-bg div {
+        background: url(../img/gongbao.jpg) no-repeat center 20px;
+        padding-top: 217px;
+        padding-bottom: 20px; }
+  .con-right .msg-public {
+    background: #f3f3f3; }
+  .con-right ul {
+    padding: 20px 0 0 40px; }
+    .con-right ul li {
+      line-height: 35px;
+      font-size: 16px;
+      text-align: left; }
+      .con-right ul li a {
+        color: #036eb5; }
+  .con-right .a_btn {
+    margin-top: 10px; }
+    .con-right .a_btn a {
+      display: inline-block;
+      box-sizing: border-box;
+      width: 152px;
+      background: #fff url(../img/btn_1.png) repeat-x 0 0;
+      border: 1px solid #dadbdc;
+      height: 37px;
+      line-height: 37px;
+      padding: 0 10px;
+      color: #222;
+      text-align: center;
+      margin: 0 5px 15px 0; }
+
+/*# sourceMappingURL=zhengwu.css.map */

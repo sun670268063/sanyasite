@@ -1,0 +1,209 @@
+.fuwu-left {
+  float: left;
+  width: 690px; }
+  .fuwu-left .list6 {
+    background: #f8f8f8;
+    margin-top: 20px;
+    position: relative;
+    border: 1px solid #eaeaea;
+    border-bottom: 5px solid #1376B9; }
+    .fuwu-left .list6 .form-box {
+      padding: 20px 0 20px 0;
+      margin: 0 30px; }
+      .fuwu-left .list6 .form-box .demand {
+        color: #1376B9;
+        border-right: 1px solid #ddd;
+        padding-right: 10px; }
+      .fuwu-left .list6 .form-box form {
+        display: inline-block;
+        font-size: 14px; }
+        .fuwu-left .list6 .form-box form span {
+          margin-left: 20px; }
+        .fuwu-left .list6 .form-box form input[type="text"] {
+          width: 140px;
+          height: 30px;
+          line-height: 30px;
+          text-indent: .5em;
+          border: 1px solid #ddd;
+          border-radius: 3px; }
+        .fuwu-left .list6 .form-box form input[type="submit"] {
+          width: 60px;
+          height: 32px;
+          line-height: 32px;
+          color: #fff;
+          background: #1376B9;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          margin-left: 20px; }
+  .fuwu-left .list-box6 {
+    padding: 0 15px;
+    position: relative;
+    margin-top: 30px; }
+    .fuwu-left .list-box6 h3 {
+      text-align: center;
+      background: #036eb5;
+      font-size: 18px;
+      width: 100%;
+      color: #FFFFFF;
+      height: 55px;
+      line-height: 55px;
+      font-weight: normal;
+      position: absolute;
+      top: 20px;
+      left: 0; }
+    .fuwu-left .list-box6 ul {
+      background: #f9fbfa;
+      border: 1px solid #dfdfdf;
+      padding: 80px 0 20px 0; }
+      .fuwu-left .list-box6 ul li {
+        float: left;
+        width: 16.5%;
+        text-align: center;
+        height: 25px;
+        line-height: 25px;
+        margin-top: 10px;
+        font-size: 14px; }
+        .fuwu-left .list-box6 ul li a {
+          color: #222;
+          display: inline-block;
+          height: 25px;
+          line-height: 25px; }
+        .fuwu-left .list-box6 ul li a:hover {
+          padding: 0 5px;
+          background: #1376B9;
+          color: #fff; }
+    .fuwu-left .list-box6 [class*='icon-'] {
+      display: block;
+      border: 8px solid #fff;
+      border-bottom: 8px solid #000;
+      height: 0;
+      position: absolute; }
+    .fuwu-left .list-box6 .icon-l {
+      border-right: 8px solid #000;
+      top: 5px;
+      left: 0px; }
+    .fuwu-left .list-box6 .icon-r {
+      border-left: 8px solid #000;
+      top: 5px;
+      right: 0px; }
+
+.fuwu-right {
+  float: left;
+  width: 370px;
+  margin-left: 40px; }
+  .fuwu-right h3 {
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #036eb5;
+    font-size: 18px;
+    font-weight: normal;
+    text-indent: 1em; }
+  .fuwu-right .understand-box li {
+    float: left;
+    width: 33.3%;
+    height: 95px;
+    margin-top: 20px; }
+    .fuwu-right .understand-box li a {
+      display: block;
+      width: 95px;
+      padding-top: 68px;
+      margin: 0 auto;
+      color: #222;
+      font-size: 14px;
+      text-align: center; }
+      .fuwu-right .understand-box li a span {
+        display: block;
+        background: url(../img/btn_1.png) repeat-x 0 0;
+        width: 76px;
+        height: 25px;
+        line-height: 25px;
+        margin: 0 auto;
+        border: 1px solid #eee;
+        color: #6e6d6d; }
+    .fuwu-right .understand-box li a:hover span {
+      color: #1376B9;
+      box-shadow: 2px 1px 1px #ddd;
+      transition: all .3s;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -ms-transition: all .3s;
+      -o-transition: all .3s; }
+    .fuwu-right .understand-box li .gjdd {
+      background: url(../img/icon_gjblue.png) no-repeat 50% 0; }
+    .fuwu-right .understand-box li .dlwz {
+      background: url(../img/icon_dlwzblue.png) no-repeat 50% 0; }
+    .fuwu-right .understand-box li .dtfb {
+      background: url(../img/icon_dtfbblue.png) no-repeat 50% 0; }
+    .fuwu-right .understand-box li .lxdh {
+      background: url(../img/icon_lxdhblue.png) no-repeat 50% 0; }
+    .fuwu-right .understand-box li .rexian {
+      background: url(../img/icon_szrxblue.png) no-repeat 50% 0; }
+    .fuwu-right .understand-box li .bgxz {
+      background: url(../img/icon_bgxzblue.png) no-repeat 50% 0; }
+  .fuwu-right .img-btn-box {
+    margin: 50px 0 0 23px; }
+    .fuwu-right .img-btn-box span {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      position: relative;
+      right: 40px;
+      top: 8px; }
+    .fuwu-right .img-btn-box .icon-zrqd {
+      background: url(../img/icon_zrqd.png) no-repeat; }
+    .fuwu-right .img-btn-box .icon-qlqd {
+      background: url(../img/icon_qlqd.png) no-repeat; }
+    .fuwu-right .img-btn-box .icon-bjnsp {
+      background: url(../img/nomeet.png) no-repeat;
+      left: -26px; }
+    .fuwu-right .img-btn-box a {
+      margin-top: 20px;
+      display: block;
+      width: 326px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      color: #fff;
+      font-size: 22px;
+      letter-spacing: 2px;
+      background: url(../img/icon_cai_small.png) no-repeat 0 0;
+      background-size: 100% 100%; }
+
+.btn-box {
+  margin: 20px 0 0 23px; }
+  .btn-box a {
+    display: inline-block;
+    background: #1376B9;
+    color: #D1E0ED;
+    width: 135px;
+    height: 50px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px; }
+  .btn-box a:last-child {
+    margin-left: 50px; }
+  .btn-box [class*="icon1-"] {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    top: 8px;
+    left: -5px; }
+  .btn-box .icon1-wyts {
+    background: url(../img/icon_wyts.png) no-repeat 0 0; }
+  .btn-box .icon1-wyjy {
+    background: url(../img/icon_jy.png) no-repeat 0 0; }
+  .btn-box .icon1-zjdl {
+    background: url(../img/icon_zjdl.png) no-repeat 0 0; }
+  .btn-box .icon1-jypt {
+    background: url(../img/icon_jypt.png) no-repeat 0 0; }
+  .btn-box .icon1-kbap {
+    background: url(../img/icon_fwdl.png) no-repeat 0 0; }
+  .btn-box .icon1-rkzn {
+    background: url(../img/icon_rkzn.png) no-repeat 0 0; }
+
+/*# sourceMappingURL=fuwu.css.map */

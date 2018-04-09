@@ -1,0 +1,57 @@
+.common {
+    width: 1100px;
+    margin: 0 auto;
+    .list_1 {
+        background: #f8f8f8;
+        margin-bottom: 40px;
+        .top_img{
+            position: absolute;
+            margin: -2px 0 0 -2px;
+        }
+        h3{
+            font-size: 18px;
+            padding: 15px 0;
+            text-align: left;
+            color: #036eb5;
+            border-bottom: 1px solid #ddd;
+            margin: 0 30px;
+        }
+        .line_li{
+            padding: 15px 30px;
+            li{
+            height: 35px;
+            line-height: 35px;
+            a{
+                color: #222;
+            }
+            a:hover{
+                color: #005FAB;
+            }
+            a:before{
+                content: "\25C6";
+            }
+            em{
+                float: right;
+                color: #777;
+                font-style: normal;
+                font-size: 14px;
+            }
+        }
+        }
+        
+    }
+}
+
+.border {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed #ddd;
+}
+
+#paging{
+    margin-left: 20px;
+    span,a{
+        background: #f3f3f3;
+        margin-left: 5px;
+    }
+}

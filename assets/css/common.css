@@ -1,0 +1,64 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Microsoft Yahei";
+}
+
+img {
+	border-style: none;
+}
+
+
+/*p,div,li,a{
+	font-size: 14px;
+}*/
+
+iframe {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+
+/*h1,h2,h3,h4{
+	font-weight: normal;
+	display: inline-block;
+}*/
+
+iframe {
+	width: 100%;
+	border: none;
+	height: 100%;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	font-size: 0;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.crumb {
+	padding: 20px 0 20px 20px;
+	background: url(../img/crumbs_bg.png) no-repeat 0 center;
+	width: 1080px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #222;
+}
+.crumb a{color: #222;}

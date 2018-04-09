@@ -1,0 +1,199 @@
+.hudong-left,
+.hudong-right {
+  float: left; }
+
+.hudong-left {
+  width: 757px; }
+  .hudong-left .list3 {
+    background: #f8f8f8;
+    margin-top: 20px;
+    position: relative; }
+    .hudong-left .list3 .icon-left {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../img/list_rt_bg.png) no-repeat 100% 100%;
+      position: absolute;
+      left: -2px;
+      top: -2px; }
+    .hudong-left .list3 h3 {
+      font-weight: normal;
+      padding: 6px 0;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+      margin: 0 30px;
+      position: relative; }
+      .hudong-left .list3 h3 a.a_link {
+        color: #222; }
+      .hudong-left .list3 h3 a.a_btn2 {
+        display: inline-block;
+        color: #FFF;
+        background: #1376B9;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+        width: 70px;
+        text-align: center;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        position: absolute;
+        right: 0px; }
+    .hudong-left .list3 .form-box {
+      padding: 20px 0 10px 0;
+      margin: 0 30px; }
+      .hudong-left .list3 .form-box .demand {
+        color: #1376B9;
+        border-right: 1px solid #ddd;
+        padding-right: 10px; }
+      .hudong-left .list3 .form-box form {
+        display: inline-block; }
+        .hudong-left .list3 .form-box form input[type="text"] {
+          width: 102px;
+          height: 30px;
+          line-height: 30px;
+          text-indent: .5em;
+          border: 1px solid #ddd;
+          border-radius: 3px; }
+        .hudong-left .list3 .form-box form input[type="submit"] {
+          width: 60px;
+          height: 32px;
+          line-height: 32px;
+          color: #fff;
+          background: #1376B9;
+          border: 1px solid #ddd;
+          border-radius: 5px; }
+      .hudong-left .list3 .form-box .complain-table {
+        table-layout: fixed;
+        width: 695px;
+        font-size: 14px; }
+        .hudong-left .list3 .form-box .complain-table tr {
+          height: 35px;
+          line-height: 35px; }
+          .hudong-left .list3 .form-box .complain-table tr th {
+            border-bottom: 1px dashed #ddd; }
+          .hudong-left .list3 .form-box .complain-table tr th:first-child {
+            width: 490px;
+            text-align: left; }
+          .hudong-left .list3 .form-box .complain-table tr td {
+            width: 490px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: center;
+            border-bottom: 1px dashed #ddd; }
+            .hudong-left .list3 .form-box .complain-table tr td a {
+              color: #222; }
+            .hudong-left .list3 .form-box .complain-table tr td a:hover {
+              color: #1376B9; }
+          .hudong-left .list3 .form-box .complain-table tr td:nth-of-type(1) {
+            text-align: left; }
+          .hudong-left .list3 .form-box .complain-table tr td:last-child {
+            color: #ccc;
+            font-size: 12px; }
+
+.rexian-box div {
+  float: left; }
+.rexian-box .rexian-img {
+  width: 227px;
+  height: 92px;
+  background: url(../img/rexiandianhua.jpg) no-repeat 0 0;
+  overflow: hidden; }
+.rexian-box ul {
+  width: 500px;
+  padding: 10px 0 10px 20px;
+  background: #efefef;
+  height: 72px;
+  margin-left: 10px; }
+  .rexian-box ul li {
+    float: left;
+    width: 33.3%;
+    line-height: 36px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+    .rexian-box ul li span {
+      display: inline-block;
+      width: 5px;
+      height: 5px;
+      background: red;
+      position: relative;
+      top: -3px;
+      margin-right: 5px; }
+    .rexian-box ul li label {
+      color: red; }
+
+.hudong-right {
+  width: 325px;
+  margin-left: 18px; }
+  .hudong-right a {
+    color: #222; }
+  .hudong-right .list-box5 h3 {
+    background-color: #036eb5;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px; }
+    .hudong-right .list-box5 h3 a {
+      color: #fff; }
+  .hudong-right .list-box5 ul {
+    width: 100%;
+    background-color: #f8f8f8;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-top: 0; }
+    .hudong-right .list-box5 ul li {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-top: 10px;
+      font-size: 14px; }
+      .hudong-right .list-box5 ul li span, .hudong-right .list-box5 ul li label {
+        display: inline-block; }
+      .hudong-right .list-box5 ul li span {
+        width: 4px;
+        height: 4px;
+        background: #666;
+        position: relative;
+        top: -3px; }
+      .hudong-right .list-box5 ul li label {
+        padding: 3px 5px;
+        background-color: #999;
+        color: #fff;
+        margin-left: 5px;
+        border-radius: 3px; }
+      .hudong-right .list-box5 ul li a {
+        display: inline-block;
+        margin-left: 5px; }
+      .hudong-right .list-box5 ul li a:hover {
+        color: #1376B9; }
+
+.mt15 {
+  margin-top: 15px; }
+
+.img-btn-box span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  right: 40px;
+  top: 8px; }
+.img-btn-box .icon-yajy {
+  background: url(../img/icon_jy.png) no-repeat; }
+.img-btn-box .icon-yzzc {
+  background: url(../img/icon_yzxc.png) no-repeat; }
+.img-btn-box a {
+  margin-top: 20px;
+  display: block;
+  width: 326px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 2px;
+  background: url(../img/icon_cai_small.png) no-repeat 100% 100%; }
+
+/*# sourceMappingURL=hudong.css.map */

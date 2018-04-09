@@ -1,0 +1,67 @@
+.pages-box{
+    border: 1px solid #ddd;
+    padding: 10px 66px 38px 66px;
+    box-sizing: border-box;
+    h1{
+        height: 56px;
+        line-height: 56px;
+        font-size: 30px;
+        font-weight: normal;
+        text-align: center;
+        color: #000;
+    }
+    .qr_code{
+        text-align: center;
+        margin-top: 40px;
+        font-size: 14px;
+        color: #999;
+    }
+    .btm{
+        border-top: 1px solid #ddd;
+        text-align: center;
+        padding-top:50px ;
+        margin-top: 50px;
+        a{
+            padding: 0 20px;
+        }
+        .btn_1{
+            display: inline-block;
+            background: #fff url(../img/btn_1.png) repeat-x 0 0;
+            padding: 0 10px;
+            line-height: 30px;
+            border: 1px solid #dadbdc;
+            cursor: pointer;
+            font-size: 14px;
+        }
+    }
+}
+.pages-date{
+    padding: 10px 0;
+    line-height: 25px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    div{
+        float: left;
+    }
+    .printer{
+        position: absolute;
+        right: 100px;
+    }
+    .share{
+        position: absolute;
+        right: 0;
+    }
+}
+
+.xggj{
+    padding: 20px 25px;
+    background: #fdfdfd;
+    border: 1px dashed #ddd;
+    color: #1376B9;
+    font-size: 20px;
+}
+
+
+.ml50{
+    margin-left: 50px;
+}

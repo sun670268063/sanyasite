@@ -1,0 +1,57 @@
+.pages-box {
+  border: 1px solid #ddd;
+  padding: 10px 66px 38px 66px;
+  box-sizing: border-box; }
+  .pages-box h1 {
+    height: 56px;
+    line-height: 56px;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    color: #000; }
+  .pages-box .qr_code {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #999; }
+  .pages-box .btm {
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px; }
+    .pages-box .btm a {
+      padding: 0 20px; }
+    .pages-box .btm .btn_1 {
+      display: inline-block;
+      background: #fff url(../img/btn_1.png) repeat-x 0 0;
+      padding: 0 10px;
+      line-height: 30px;
+      border: 1px solid #dadbdc;
+      cursor: pointer;
+      font-size: 14px; }
+
+.pages-date {
+  padding: 10px 0;
+  line-height: 25px;
+  border-bottom: 1px solid #ddd;
+  position: relative; }
+  .pages-date div {
+    float: left; }
+  .pages-date .printer {
+    position: absolute;
+    right: 100px; }
+  .pages-date .share {
+    position: absolute;
+    right: 0; }
+
+.xggj {
+  padding: 20px 25px;
+  background: #fdfdfd;
+  border: 1px dashed #ddd;
+  color: #1376B9;
+  font-size: 20px; }
+
+.ml50 {
+  margin-left: 50px; }
+
+/*# sourceMappingURL=xxgk_content.css.map */

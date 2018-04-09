@@ -1,0 +1,125 @@
+.con-l,.con-r{
+    float: left;
+}
+
+.data-box{
+    h3{
+        width: 145px;
+        height: 36px;
+        line-height: 36px;
+        color: #FFF;
+        font-size: 18px;
+        background: #036eb5;
+        text-align: center;
+        border-radius: 5px;
+        font-weight: normal;
+    }
+    .source-box{
+        margin-top: 10px;
+        width: 100%;
+        background: #036eb5;
+        font-size: 16px;
+        height: 43px;
+        line-height: 43px;
+        color: #FFF;
+        box-sizing: border-box;
+        padding: 0 30px;
+        position: relative;
+        .source{
+            font-size: 14px;
+            position: absolute;
+            right: 30px;
+        }
+    }
+}
+.tab-ul{
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    line-height: 50px;
+    ul{
+        li{
+            float: left;
+            padding: 0 20px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        li:hover{
+            color: #007DDB;
+        }
+    }
+}
+
+
+.con-l{
+    width: 720px;
+}
+.tab-mune{
+    position: relative;
+}
+
+.tab-box{
+    background: #F1F2F2;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+    width: 720px;
+}
+
+.seach-box{
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    display: inline-block;
+    font-size: 12px;
+    input{
+        height: 30px;
+        line-height: 30px;
+        text-indent: .5em;
+    }
+    button{
+        padding: 10px 30px;
+        color: #fff;
+        background: #1169a9;
+        border: 0;
+    }
+}
+
+
+.con-r{
+    width: 350px;
+    border-left:1px solid #ddd ;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-left: 10px;
+    .tabs{
+        div{
+            width: 350px;
+            li{
+                
+                
+                a{
+                    display: block;
+                    width: 300px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}
+
+.a_bg{
+    a{
+        display: inline-block;
+        background: url(../img/a_bg.jpg) no-repeat 0 0;
+        width: 206px;
+        height: 66px;
+        line-height: 52px;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        padding-right: 15px;
+        margin: 20px 25px 0 25px;
+    }
+}
